@@ -113,7 +113,7 @@ from fuzzywuzzy import fuzz
 
 **Visualization:**
 
-![Documentary Quality Decline](images/documentary_decline.png)
+![Documentary Quality Decline](documentary_decline.png)
 *Documentary quality dropped 8.4% during 11x expansion (1990-2019)*
 
 ### **Finding 2: The Cross-Sectional Paradox**
