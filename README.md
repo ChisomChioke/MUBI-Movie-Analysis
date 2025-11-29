@@ -6,7 +6,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-1.3+-green.svg)](https://pandas.pydata.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[View Full Analysis Notebook](link-to-your-notebook.ipynb) | [View Project Summary](link-if-you-have-summary.pdf)
+[View Full Analysis Notebook](https://github.com/ChisomChioke/MUBI-Movie-Analysis/blob/main/Movie_Data_Analysis.ipynb) | [View Project Summary](link-if-you-have-summary.pdf)
 
 ---
 
