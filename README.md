@@ -9,8 +9,6 @@
 - [Strategic Recommendations](#strategic-recommendations)
 - [Key Takeaways](#key-takeaways)
 - [Limitations & Future Work](#limitations--future-work)
-    - [Current Limitations](#current-limitations)
-    - [Future Research](#future-research)
 - [Technologies Used](#technologies-used)
 
 ## Project Overview
