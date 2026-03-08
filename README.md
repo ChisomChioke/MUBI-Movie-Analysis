@@ -1,5 +1,20 @@
 # Genre Scaling Risk in Streaming Content: A Statistical Analysis of Production Volume vs Quality in MUBI Movies
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Data Overview](#data-overview)
+- [Analytical Approach](#analytical-approach)
+- [Executive Summary of Results](#executive-summary-of-results)
+    - [Key Findings](#key-findings)
+    - [Edge Case Handling](#edge-case-handling)
+- [Why This Project Matters](#why-this-project-matters)
+- [Key Takeaways](#key-takeaways)
+- [Limitations & Future Work](#limitations--future-work)
+- [Technologies Used](#technologies-used)
+
+## Project Overview
+
 [View Full Analysis Notebook](https://github.com/ChisomChioke/MUBI-Movie-Analysis/blob/main/Movie_Data_Analysis.ipynb) | [View Project Summary](link-if-you-have-summary.pdf)
 
 ---
