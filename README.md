@@ -4,13 +4,13 @@
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
 - [Data Overview](#data-overview)
-- [Analytical Approach](#analytical-approach)
-- [Executive Summary of Results](#executive-summary-of-results)
-    - [Key Findings](#key-findings)
-    - [Edge Case Handling](#edge-case-handling)
-- [Why This Project Matters](#why-this-project-matters)
+- [Methodology](#methodology)
+- [Key Findings](#key-findings)
+- [Strategic Recommendations](#strategic-recommendations)
 - [Key Takeaways](#key-takeaways)
 - [Limitations & Future Work](#limitations--future-work)
+    - [Current Limitations](#current-limitations)
+    - [Future Research](#future-research)
 - [Technologies Used](#technologies-used)
 
 ## Project Overview
@@ -258,15 +258,14 @@ The framework successfully shifts content strategy from **volume-driven** to **g
 
 ## Limitations & Future Work
 
-#### Current Limitations
+### Current Limitations
 1. **Statistical power:** Only 6 five-year periods limit ability to detect moderate effects
 2. **Data completeness:** 2020-2024 excluded due to 95% volume collapse; recent trends unknown
 3. **Match rate:** 61% genre match rate may introduce selection bias toward well-documented films
 4. **Multi-genre complexity:** 52% of films belong to multiple genres; weighted attribution may not fully capture dynamics
 5. **Causation:** Correlations don't establish causal mechanisms (e.g., curation capacity vs. talent dilution vs. audience saturation)
 
-## Future Research
-
+### Future Research
 **1. Causal Mechanisms**
 - Investigate what drives genre-specific quality degradation during scaling
 - Test hypotheses: curation capacity limits, talent pool dilution, audience saturation
