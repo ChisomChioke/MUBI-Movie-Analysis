@@ -31,7 +31,31 @@ Content platforms rely on aggregate ratings to guide expansion decisions, but **
 
 Traditional cross-sectional analysis would recommend expanding Documentary based on its strong 3.37 aggregate rating. However, **85% of Documentary films were produced during 1990-2019,** when quality declined significantly (r = -0.937, p = 0.006). Aggregate metrics mislead strategy when they mask temporal trajectories.
 
-## 📊 Executive Summary
+## Data Overview
+
+**Primary Dataset:** [MUBI SVOD Platform Database](https://www.kaggle.com/datasets/clementmsika/mubi-sqlite-database-for-movie-lovers)
+
+**Supplementary Data:** [TMDB Movie Dataset](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies) (genre enrichment)
+
+- **Raw data:** 226,575 movies | 15.5M user ratings
+- **After genre enrichment:** 139,237 movies with genre data (61% match rate)
+- **Temporal scope:** 1990-2019 analysis (2020-2024 excluded due to 95% data discontinuity)
+- **Genres analyzed:** 19 genres including Drama, Comedy, Documentary, Horror, Thriller
+
+#### Key Variables:
+- **Rating:** 1-5 scale user ratings (aggregate: mean 3.37)
+- **Popularity:** Number of users who "love" the movie
+- **Volume:** Movie count per genre per time period
+- **Engagement:** Average likes per user critique
+
+#### Data Preparation:
+- Fuzzy matching merged MUBI ratings with TMDB genres (61% match rate)
+- Multi-genre attribution: 52% of films assigned to multiple genres (weighted analysis)
+- Temporal binning: 6 five-year periods (1990-2019) for trend analysis
+- 2020-2024 excluded: 95% volume collapse indicates incomplete data
+
+
+
 
 This project analyzes the relationship between content volume, quality, and user engagement using 
 15.5 million MUBI user ratings across 226,000+ movie titles spanning 19 genres. The analysis reveals 
