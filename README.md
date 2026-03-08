@@ -55,7 +55,7 @@ Traditional cross-sectional analysis would recommend expanding Documentary based
 - 2020-2024 excluded: 95% volume collapse indicates incomplete data
 
 ![Rated vs Unrated Movies](images/proportion_of_rated_vs_unrated_movies.png)
-_63% of movies have user ratings, while 37% remain unrated—indicating potential discoverability gaps and opportunities for targeted promotion._
+_Figure 1: 63% of movies have user ratings, while 37% remain unrated—indicating potential discoverability gaps and opportunities for targeted promotion._
 
 ## Methodology
 #### Dual-Analysis Framework:
@@ -87,7 +87,7 @@ _63% of movies have user ratings, while 37% remain unrated—indicating potentia
 **Finding #1: Cross-Sectional Analysis Misleads Strategy**
 
 ![Cross-Sectional Analysis](images/average_rating_vs_popularity_by_genre_cross_sectional.png)
-_Cross-sectional view suggests Documentary (3.37 rating, 14,509 films) is a safe expansion target. However, this aggregate metric masks an 8.4% quality decline during 11x growth (1990-2019)._
+_Figure 2: Cross-sectional view suggests Documentary (3.37 rating, 14,509 films) is a safe expansion target. However, this aggregate metric masks an 8.4% quality decline during 11x growth (1990-2019)._
 
 **Cross-sectional correlation:** r = 0.175, p = 0.472 (not significant)
 - No systematic volume-quality relationship detected
@@ -98,8 +98,12 @@ _Cross-sectional view suggests Documentary (3.37 rating, 14,509 films) is a safe
 
 **Strategic implication:** Relying on cross-sectional metrics alone would trigger Documentary expansion during active quality decline.
 
+**Finding #2: Temporal Scaling Risks Are Genre-Specific**
 
-### **3. Statistical Analysis**
+![Documentary Trend](images/documentary_decline.png)
+_Figure 3: Documentary quality dropped 8.4% during 11x expansion (1990-2019): 3.57 (429 movies) → 3.27 (4,836 movies). Strong negative correlation (r = -0.937, p = 0.006) confirms quality degradation accompanies scaling._
+
+#### Within-Genre Volume-Quality Correlations (1990-2019):
 
 | Method | Purpose | Key Results |
 |--------|---------|-------------|
@@ -202,7 +206,7 @@ _Cross-sectional view suggests Documentary (3.37 rating, 14,509 films) is a safe
 ## 📊 Sample Visualizations
 
 ### **Documentary Quality Decline**
-![Documentary Trend](images/documentary_decline.png)
+
 
 
 ### **Genre Distribution**
