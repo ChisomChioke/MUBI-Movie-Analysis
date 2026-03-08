@@ -15,7 +15,22 @@
 
 ## Project Overview
 
-[View Full Analysis Notebook](https://github.com/ChisomChioke/MUBI-Movie-Analysis/blob/main/Movie_Data_Analysis.ipynb) | [View Project Summary](link-if-you-have-summary.pdf)
+Streaming platforms face a critical question: **does scaling content production compromise quality?** Using **226,575 movies** across 19 genres spanning 1878-2021, I built a statistical framework analyzing 1990-2019 trends, revealing that aggregate metrics mask quality degradation during rapid expansion—Documentary's 3.37 overall rating hides an 8.4% decline during 11x volume growth.
+
+Full Analysis Notebook: [Link to Jupyter Notebook](https://github.com/ChisomChioke/MUBI-Movie-Analysis/blob/main/Movie_Data_Analysis.ipynb)
+One-Page Summary: [View Project Summary](https://drive.google.com/file/d/14hrJJUFomB6r9yixJ32uZ06Z9TU_9A4M/view)
+
+Business Problem
+Content platforms rely on aggregate ratings to guide expansion decisions, but cross-sectional metrics mask temporal quality erosion. Documentary appeared high-performing (3.37 rating) while actively declining from 3.57 to 3.27 during 11x expansion—potentially triggering misguided investment that accelerates brand dilution.
+Critical Questions:
+
+Does production volume systematically predict content quality?
+Which genres can scale safely vs. those requiring strict curation?
+How should platforms allocate resources across genres with different scaling dynamics?
+
+Traditional cross-sectional analysis would recommend expanding Documentary based on its strong 3.37 aggregate rating. However, 85% of Documentary films were produced during 1990-2019, when quality declined significantly (r = -0.937, p = 0.006). Aggregate metrics mislead strategy when they mask temporal trajectories.
+
+[View Full Analysis Notebook]
 
 ---
 
