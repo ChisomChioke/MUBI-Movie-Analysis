@@ -54,70 +54,50 @@ Traditional cross-sectional analysis would recommend expanding Documentary based
 - Temporal binning: 6 five-year periods (1990-2019) for trend analysis
 - 2020-2024 excluded: 95% volume collapse indicates incomplete data
 
+![Rated vs Unrated Movies](images/proportion_of_rated_vs_unrated_movies.png)
+_63% of movies have user ratings, while 37% remain unrated—indicating potential discoverability gaps and opportunities for targeted promotion._
 
+## Methodology
+#### Dual-Analysis Framework:
 
+#### Phase 1: Cross-Sectional Benchmarking
+- Correlation analysis (Pearson/Spearman) testing volume-quality relationships
+- OLS regression: Genre rating ~ Production volume
+- T-tests comparing high-volume vs. low-volume genres
 
-This project analyzes the relationship between content volume, quality, and user engagement using 
-15.5 million MUBI user ratings across 226,000+ movie titles spanning 19 genres. The analysis reveals 
-a critical methodological insight: **cross-sectional analysis can mask temporal degradation patterns**, 
-leading to potentially flawed strategic decisions.
+#### Phase 2: Temporal Trend Detection
+- Within-genre time-series analysis (1990-2019)
+- OLS regression: Quality/Popularity ~ Time period
+- Volatility analysis: Genre stability rankings
+- Correlation: Production growth vs. quality change
 
-**Key Finding:** While cross-sectional data shows no relationship between production volume and quality 
-(p = 0.47), temporal analysis reveals significant quality decline in certain genres during scaling periods. 
-Documentary quality declined 8.4% (3.57 → 3.27, p = 0.006, r = -0.937) during an 11x volume expansion 
-from 1990-2019.
+#### Phase 3: Engagement Analysis
+- Critique volume vs. engagement quality correlation
+- High vs. low volume group comparisons
+- Rating-engagement relationship testing
 
----
+#### Statistical Methods:
+- Pearson & Spearman correlation (relationship strength)
+- OLS time-series regression (trend significance)
+- Welch's t-tests (group comparisons)
+- Volatility metrics (genre stability)
 
-## 🎯 Business Problem
+## Key Findings
 
-**Context:** Content platforms must balance quantity (catalog breadth) with quality (user satisfaction). 
-Understanding whether scaling production compromises quality is critical for strategic planning.
+**Finding #1: Cross-Sectional Analysis Misleads Strategy**
 
-**Research Questions:**
-1. Does increased production volume correlate with quality degradation?
-2. Are these relationships consistent across genres, or genre-specific?
-3. Do cross-sectional snapshots accurately reflect temporal trends?
+![Cross-Sectional Analysis](images/average_rating_vs_popularity_by_genre_cross_sectional.png)
+_Cross-sectional view suggests Documentary (3.37 rating, 14,509 films) is a safe expansion target. However, this aggregate metric masks an 8.4% quality decline during 11x growth (1990-2019)._
 
-**Stakeholders:** Content strategy teams, platform executives, production planners
+**Cross-sectional correlation:** r = 0.175, p = 0.472 (not significant)
+- No systematic volume-quality relationship detected
+- High-rated genres span full volume spectrum
+- Documentary (3.37, 14,509 films) vs. Music (3.17, 3,842 films)
 
----
+**Critical limitation:** Aggregate ratings combine stable early period (3.57, 429 movies, 1990-1994) with degraded recent period (3.27, 4,836 movies, 2015-2019), masking temporal erosion.
 
-## 📁 Dataset
+**Strategic implication:** Relying on cross-sectional metrics alone would trigger Documentary expansion during active quality decline.
 
-**Sources:**
-- **MUBI Dataset:** 226,575 movies with user ratings, genres, release years
-- **TMDB Dataset:** 1.3 million movies with metadata for enrichment
-
-**Scale:**
-- 15.5 million user ratings analyzed
-- 226,575 unique movie titles
-- 19 genre categories
-- Time span: 1900s-2020s
-
-**Data Quality Challenges:**
-- 61.45% match rate between MUBI and TMDB (fuzzy matching on title + release year)
-- 52% of movies classified as multi-genre (handled via weighted attribution)
-- Rating distributions: High (65,910), Medium (42,894), Low (33,860)
-
----
-
-## 🔍 Methodology
-
-### **1. Data Integration**
-```python
-# Fuzzy matching to merge MUBI and TMDB datasets
-from fuzzywuzzy import fuzz
-
-# Achieved 61.45% match rate using title + release year
-# Handled multi-genre films (52% of dataset) through weighted attribution
-```
-
-### **2. Feature Engineering**
-- **Quality Metrics:** Average ratings (1-5 scale), rating distributions
-- **Volume Metrics:** Movie counts by genre, decade, time period
-- **Engagement Metrics:** Number of ratings per movie (popularity proxy)
-- **Temporal Features:** 6 time periods (5-year windows) for trend analysis
 
 ### **3. Statistical Analysis**
 
@@ -217,77 +197,13 @@ from fuzzywuzzy import fuzz
 - Jupyter Notebook
 - Git/GitHub for version control
 
----
 
-## 📂 Repository Structure
-```
-mubi-movie-analysis/
-│
-├── data/
-│   ├── raw/                    # Original datasets (not tracked due to size)
-│   └── processed/              # Cleaned, merged datasets
-│
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_statistical_analysis.ipynb
-│   └── 04_visualizations.ipynb
-│
-├── images/                     # Charts and visualizations
-│   ├── documentary_decline.png
-│   ├── genre_distribution.png
-│   └── cross_sectional_vs_temporal.png
-│
-├── src/                        # Python modules (if applicable)
-│   ├── data_processing.py
-│   └── statistical_tests.py
-│
-├── README.md                   # This file
-├── requirements.txt            # Python dependencies
-└── LICENSE
-```
-
----
-
-## 🚀 Getting Started
-
-### **Prerequisites**
-```bash
-Python 3.8+
-pip or conda
-```
-
-### **Installation**
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/mubi-movie-analysis.git
-cd mubi-movie-analysis
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter Notebook
-jupyter notebook
-```
-
-### **Running the Analysis**
-```bash
-# Run notebooks in order:
-1. notebooks/01_data_cleaning.ipynb
-2. notebooks/02_eda.ipynb
-3. notebooks/03_statistical_analysis.ipynb
-4. notebooks/04_visualizations.ipynb
-```
-
----
 
 ## 📊 Sample Visualizations
 
 ### **Documentary Quality Decline**
 ![Documentary Trend](images/documentary_decline.png)
 
-### **Cross-Sectional vs Temporal Analysis**
-![Paradox Visualization](images/cross_sectional_vs_temporal.png)
 
 ### **Genre Distribution**
 ![Genre Breakdown](images/genre_distribution.png)
