@@ -98,6 +98,8 @@ _Figure 2: Cross-sectional view suggests Documentary (3.37 rating, 14,509 films)
 
 **Strategic implication:** Relying on cross-sectional metrics alone would trigger Documentary expansion during active quality decline.
 
+---
+
 **Finding #2: Temporal Scaling Risks Are Genre-Specific**
 
 ![Documentary Trend](images/documentary_decline.png)
@@ -111,6 +113,11 @@ _Figure 3: Documentary quality dropped 8.4% during 11x expansion (1990-2019): 3.
 | **Regression Analysis** | Model quality vs volume | R² = 0.005 (volume explains <1% of quality variance) |
 | **Temporal T-Tests** | Compare early vs late periods | Documentary: t = 3.83, p = 0.006 (significant decline) |
 | **Trend Analysis** | Examine within-genre trajectories | Strong negative correlation in 4/19 genres |
+
+![Volume Quality Relationships](images/volume_quality_relationships.png)
+_Figure 4: Genre-specific scaling patterns reveal differentiated risks: Documentary and Romance show statistically significant quality degradation (r ≈ -0.93, p = 0.006), while Comedy and Thriller maintain quality despite similar growth rates._
+
+**Key insight:** High-baseline-quality genres (Documentary: 3.57 → 3.27) face greater scaling vulnerability than moderate-quality genres (Comedy: stable ~2.7-2.8). Quality erosion is not universal—it depends on genre-specific curation capacity and audience expectations.
 
 ### **4. Key Insight: Cross-Sectional vs Temporal Paradox**
 
