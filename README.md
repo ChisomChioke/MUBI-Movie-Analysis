@@ -120,9 +120,13 @@ _Figure 4: Genre-specific scaling patterns reveal differentiated risks: Document
 
 **Key insight:** High-baseline-quality genres (Documentary: 3.57 → 3.27) face greater scaling vulnerability than moderate-quality genres (Comedy: stable ~2.7-2.8). Quality erosion is not universal—it depends on genre-specific curation capacity and audience expectations.
 
-### **4. Key Insight: Cross-Sectional vs Temporal Paradox**
+## Finding #3: Engagement is Genre-Specific, Not Metric-Driven
 
-**Cross-Sectional View (Misleading):**
+![Engagement Analysis](images/top_12_genres_critique_volume_vs_average_engagement_quality.png)
+_Figure 5: Drama achieves both high volume (160,723 critiques) and high engagement (0.79 avg likes). Comedy shows high volume (51,426) but lowest engagement (0.63), while Horror maintains high engagement with low volume—demonstrating engagement is genre-specific, not scale-driven._
+
+#### Engagement Analysis Results:
+
 - Looking at all movies at once: no volume-quality relationship (p = 0.47)
 - Conclusion: "Scaling doesn't affect quality"
 
@@ -148,10 +152,6 @@ _Figure 4: Genre-specific scaling patterns reveal differentiated risks: Document
 | **Comedy** | 2.84 | Stable | p > 0.05 ✅ |
 | **Thriller** | 3.06 | Stable | p > 0.05 ✅ |
 
-**Visualization:**
-
-![Documentary Quality Decline](images/documentary_decline.png)
-*Documentary quality dropped 8.4% during 11x expansion (1990-2019)*
 
 ### **Finding 2: The Cross-Sectional Paradox**
 
@@ -195,135 +195,3 @@ _Figure 4: Genre-specific scaling patterns reveal differentiated risks: Document
 - Simpson's Paradox awareness in strategic planning
 
 ---
-
-## 🛠️ Technical Stack
-
-**Languages & Libraries:**
-- **Python 3.8+**
-- **Data Manipulation:** Pandas, NumPy
-- **Statistical Analysis:** SciPy, Statsmodels
-- **Visualization:** Matplotlib, Seaborn
-- **Text Matching:** FuzzyWuzzy
-
-**Tools:**
-- Jupyter Notebook
-- Git/GitHub for version control
-
-
-
-## 📊 Sample Visualizations
-
-### **Documentary Quality Decline**
-
-
-
-### **Genre Distribution**
-![Genre Breakdown](images/genre_distribution.png)
-
----
-
-## 🔬 Limitations & Future Work
-
-### **Current Limitations:**
-1. **Data coverage:** MUBI platform bias (art-house/independent films overrepresented)
-2. **Match rate:** 61% MUBI-TMDB match leaves 39% without enriched metadata
-3. **Multi-genre:** 52% of films span multiple genres (weighted attribution approach)
-4. **Causation:** Correlation analysis cannot prove causal relationships
-5. **Selection bias:** User ratings may not represent general population preferences
-
-### **Future Enhancements:**
-1. **Expand data sources:** Include IMDb, Rotten Tomatoes for validation
-2. **Causal inference:** Apply methods to establish causation (instrumental variables, RDD)
-3. **Predictive modeling:** Build ML models to forecast quality during scaling
-4. **Real-time monitoring:** Dashboard for ongoing quality tracking
-5. **Sentiment analysis:** Incorporate review text for deeper quality assessment
-
----
-
-## 👤 Author
-
-**Chisom Chioke**
-- 📧 Email: cs.chioke@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
-- 📊 Tableau: [Tableau Public Profile](https://public.tableau.com/yourprofile)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- MUBI for providing the movie rating dataset
-- TMDB for movie metadata
-- Open-source community for Python data science tools
-
----
-
-## 📚 References
-
-1. MUBI Dataset: [Source link if public]
-2. TMDB API: https://www.themoviedb.org/documentation/api
-3. Statistical Methods: [Relevant papers or textbooks if cited]
-
----
-
-**⭐ If you found this analysis useful, please consider starring the repository!**
-```
-
----
-
-## 📋 **Quick Action Checklist:**
-
-### **To Complete Your GitHub:**
-
-- [ ] **Create `README.md`** (copy the content above)
-- [ ] **Add `.gitignore`** for Python:
-```
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-*.ipynb_checkpoints
-
-# Data (if large)
-data/raw/
-*.csv
-*.zip
-
-# OS
-.DS_Store
-Thumbs.db
-```
-
-- [ ] **Create `requirements.txt`**:
-```
-pandas==1.3.5
-numpy==1.21.5
-scipy==1.7.3
-statsmodels==0.13.2
-matplotlib==3.5.1
-seaborn==0.11.2
-fuzzywuzzy==0.18.0
-python-Levenshtein==0.12.2
-jupyter==1.0.0
-```
-
-- [ ] **Create `/images` folder** with your key charts
-- [ ] **Save your main notebook** as `analysis.ipynb` in root or `/notebooks`
-- [ ] **Add LICENSE file** (MIT recommended):
-```
-MIT License
-
-Copyright (c) 2025 Chisom Chioke
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-[standard MIT license text]
