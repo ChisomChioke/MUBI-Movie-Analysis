@@ -22,18 +22,14 @@ Streaming platforms face a critical question: **does scaling content production 
 **One-Page Summary:** [View Project Summary](https://drive.google.com/file/d/14hrJJUFomB6r9yixJ32uZ06Z9TU_9A4M/view)
 
 ## Business Problem
-Content platforms rely on aggregate ratings to guide expansion decisions, but cross-sectional metrics mask temporal quality erosion. Documentary appeared high-performing (3.37 rating) while actively declining from 3.57 to 3.27 during 11x expansion—potentially triggering misguided investment that accelerates brand dilution.
-Critical Questions:
+Content platforms rely on aggregate ratings to guide expansion decisions, but **cross-sectional metrics mask temporal quality erosion.** Documentary appeared high-performing (3.37 rating) while actively declining from 3.57 to 3.27 during 11x expansion—potentially triggering misguided investment that accelerates brand dilution.
 
-Does production volume systematically predict content quality?
-Which genres can scale safely vs. those requiring strict curation?
-How should platforms allocate resources across genres with different scaling dynamics?
+**Critical Questions:**
+1. Does production volume systematically predict content quality?
+2. Which genres can scale safely vs. those requiring strict curation?
+3. How should platforms allocate resources across genres with different scaling dynamics?
 
-Traditional cross-sectional analysis would recommend expanding Documentary based on its strong 3.37 aggregate rating. However, 85% of Documentary films were produced during 1990-2019, when quality declined significantly (r = -0.937, p = 0.006). Aggregate metrics mislead strategy when they mask temporal trajectories.
-
-[View Full Analysis Notebook]
-
----
+Traditional cross-sectional analysis would recommend expanding Documentary based on its strong 3.37 aggregate rating. However, **85% of Documentary films were produced during 1990-2019,** when quality declined significantly (r = -0.937, p = 0.006). Aggregate metrics mislead strategy when they mask temporal trajectories.
 
 ## 📊 Executive Summary
 
