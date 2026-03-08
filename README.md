@@ -149,145 +149,155 @@ _Figure 5: Drama achieves both high volume (160,723 critiques) and high engageme
 ![Temporal Analysis Summary](images/temporal_analysis_summary.png)
 _Figure 6: Four-panel analysis reveals: Crime shows linear decline (top-left), volatility hierarchy confirms Crime/Western/Fantasy as most unstable (top-right), Fantasy exhibits boom-bust cycles vs. Romance's moderate fluctuations (bottom-left), and volume-quality correlations differ by genre (bottom-right)._
 
+#### Genre Volatility Rankings (Popularity Standard Deviation):
 
-Genre Volatility Rankings (Popularity Standard Deviation):
+1. **Crime** (SD = 50.96): Linear decline from 148 → 15 (p = 0.002)
+2. **Western** (SD = 45.04): Erratic fluctuations (134→3→72→32)
+3. **Fantasy** (SD = 41.00): Boom-bust spike (128 in 2000-2004 → crash)
 
-Crime (SD = 50.96): Linear decline from 148 → 15 (p = 0.002)
-Western (SD = 45.04): Erratic fluctuations (134→3→72→32)
-Fantasy (SD = 41.00): Boom-bust spike (128 in 2000-2004 → crash)
+#### Strategic implications:
+- **Crime:** Sustained decline requires prestige-project strategy
+- **Western:** Erratic volatility suggests event-driven, cyclical investment
+- **Fantasy:** Boom-bust cycles require market timing awareness
 
-Strategic implications:
+---
 
-Crime: Sustained decline requires prestige-project strategy
-Western: Erratic volatility suggests event-driven, cyclical investment
-Fantasy: Boom-bust cycles require market timing awareness
+## Strategic Recommendations
+Based on statistical findings, implement **differentiated genre strategies:**
 
-Strategic Recommendations
-Based on statistical findings, implement differentiated genre strategies:
-1. Constrain Expansion with Strict Curation
-Genres: Documentary, Romance
-Rationale: Both show statistically significant quality degradation (r ≈ -0.93, p = 0.006) during scaling
-Actions:
+#### 1. Constrain Expansion with Strict Curation
 
-Freeze Documentary volume at 2010-2014 levels
-Implement quality gates: Only greenlight projects scoring 3.5+ in test screenings
-Shift resources to prestige curation over volume growth
+**Genres:** Documentary, Romance
 
-Expected Impact: Prevent further quality erosion; stabilize brand reputation
+**Rationale:** Both show statistically significant quality degradation (r ≈ -0.93, p = 0.006) during scaling
 
-2. Scale Confidently
-Genres: Comedy, Thriller
-Rationale: Both maintained quality despite 3x volume growth (p > 0.3)
-Actions:
+**Actions:**
+- Freeze Documentary volume at 2010-2014 levels
+- Implement quality gates: Only greenlight projects scoring 3.5+ in test screenings
+- Shift resources to prestige curation over volume growth
 
-Continue current expansion trajectory
-Monitor engagement quality (Comedy shows warning signals at 0.63 avg likes)
-Allocate growth capital to proven scalable genres
+**Expected Impact:** Prevent further quality erosion; stabilize brand reputation
 
-Expected Impact: Maximize catalog growth without quality risk
+---
 
-3. Investigate Comedy Engagement Gap
-Problem: Comedy shows high volume (51,426 critiques) but lowest engagement (0.63 avg likes vs. 0.79 for Drama/Horror)
-Actions:
+#### 2. Scale Confidently
 
-Conduct qualitative research on audience expectations
-Test content tone variations (dark comedy vs. slapstick vs. satire)
-Analyze critique sentiment to identify misalignment sources
+**Genres:** Comedy, Thriller
+**Rationale:** Both maintained quality despite 3x volume growth (p > 0.3)
 
-Expected Impact: Close 20% engagement gap with Drama benchmark
+**Actions:**
+- Continue current expansion trajectory
+- Monitor engagement quality (Comedy shows warning signals at 0.63 avg likes)
+- Allocate growth capital to proven scalable genres
 
-4. Leverage Niche Communities
-Genres: Horror, Mystery (high engagement, low volume)
-Actions:
+**Expected Impact:** Maximize catalog growth without quality risk
 
-Invest strategically in 10-15 high-quality titles per year
-Build community features (genre-specific forums, exclusive previews)
-Use engagement metrics (0.78-0.79 avg likes) to guide curation
+---
 
-Expected Impact: Maximize engagement efficiency; strengthen loyal communities
+#### 3. Investigate Comedy Engagement Gap
 
-5. Manage Declining Genres Strategically
-Crime (linear decline, p = 0.002):
+**Problem:** Comedy shows high volume (51,426 critiques) but lowest engagement (0.63 avg likes vs. 0.79 for Drama/Horror)
 
-Shift to prestige projects (2-3 high-budget films/year)
-Avoid volume-based strategies
+**Actions:**
+- Conduct qualitative research on audience expectations
+- Test content tone variations (dark comedy vs. slapstick vs. satire)
+- Analyze critique sentiment to identify misalignment sources
 
-Western (erratic volatility):
+**Expected Impact:** Close 20% engagement gap with Drama benchmark
 
-Treat as cyclical, event-driven content
-Monitor for revival signals before investment
+---
 
-Expected Impact: Minimize capital allocation to structurally declining genres
+#### 4. Leverage Niche Communities
 
-6. Implement Temporal Quality Monitoring
-System Requirements:
+**Genres:** Horror, Mystery (high engagement, low volume)
 
-Track within-genre quality trends quarterly (not just aggregate metrics)
-Alert when moving average drops >0.1 points over 2 periods
-Trigger curation reviews before degradation becomes entrenched
+**Actions:**
+- Invest strategically in 10-15 high-quality titles per year
+- Build community features (genre-specific forums, exclusive previews)
+- Use engagement metrics (0.78-0.79 avg likes) to guide curation
 
-Expected Impact: Early detection prevents Documentary-style hidden erosion
+**Expected Impact:** Maximize engagement efficiency; strengthen loyal communities
+
+---
+
+#### 5. Manage Declining Genres Strategically
+
+**Crime (linear decline, p = 0.002):**
+- Shift to prestige projects (2-3 high-budget films/year)
+- Avoid volume-based strategies
+
+**Western (erratic volatility):**
+- Treat as cyclical, event-driven content
+- Monitor for revival signals before investment
+
+**Expected Impact:** Minimize capital allocation to structurally declining genres
+
+---
+
+#### 6. Implement Temporal Quality Monitoring
+
+**System Requirements:**
+- Track within-genre quality trends quarterly (not just aggregate metrics)
+- Alert when moving average drops >0.1 points over 2 periods
+- Trigger curation reviews before degradation becomes entrenched
+
+**Expected Impact:** Early detection prevents Documentary-style hidden erosion
+
+---
 
 ## Key Takeaways
 This project demonstrates:
 
-Cross-sectional analysis alone is insufficient — Documentary's 3.37 aggregate rating masks 8.4% temporal decline, illustrating how static metrics mislead expansion decisions
-Genre-specific strategies are essential — No universal scaling rules exist. Documentary degrades during expansion (r = -0.937), Comedy maintains quality (r = -0.471), requiring differentiated approaches
-Temporal monitoring prevents hidden erosion — Early detection systems can trigger curation reviews before degradation becomes entrenched, as evidenced by Documentary's undetected decline
-Engagement reflects community, not metrics — Drama's high engagement (0.79) despite high volume, and Comedy's low engagement (0.63) despite similar volume, prove engagement is genre-specific
-Statistical rigor reveals counterintuitive insights — Visual patterns suggesting Western decline proved statistically insignificant (p = 0.353), while Crime's decline reached high significance (p = 0.002)
+1. **Cross-sectional analysis alone is insufficient** — Documentary's 3.37 aggregate rating masks 8.4% temporal decline, illustrating how static metrics mislead expansion decisions
+2. **Genre-specific strategies are essential** — No universal scaling rules exist. Documentary degrades during expansion (r = -0.937), Comedy maintains quality (r = -0.471), requiring differentiated approaches
+3. **Temporal monitoring prevents hidden erosion** — Early detection systems can trigger curation reviews before degradation becomes entrenched, as evidenced by Documentary's undetected decline
+4. **Engagement reflects community, not metrics** — Drama's high engagement (0.79) despite high volume, and Comedy's low engagement (0.63) despite similar volume, prove engagement is genre-specific
+5. **Statistical rigor reveals counterintuitive insights** — Visual patterns suggesting Western decline proved statistically insignificant (p = 0.353), while Crime's decline reached high significance (p = 0.002)
 
-The framework successfully shifts content strategy from volume-driven to genre-specific, quality-weighted approaches—enabling platforms to maximize catalog growth while maintaining brand integrity.
+The framework successfully shifts content strategy from **volume-driven** to **genre-specific, quality-weighted** approaches—enabling platforms to maximize catalog growth while maintaining brand integrity.
 
-Limitations & Future Work
-Current Limitations
+## Limitations & Future Work
 
-Statistical power: Only 6 five-year periods limit ability to detect moderate effects
-Data completeness: 2020-2024 excluded due to 95% volume collapse; recent trends unknown
-Match rate: 61% genre match rate may introduce selection bias toward well-documented films
-Multi-genre complexity: 52% of films belong to multiple genres; weighted attribution may not fully capture dynamics
-Causation: Correlations don't establish causal mechanisms (e.g., curation capacity vs. talent dilution vs. audience saturation)
+#### Current Limitations
+1. **Statistical power:** Only 6 five-year periods limit ability to detect moderate effects
+2. **Data completeness:** 2020-2024 excluded due to 95% volume collapse; recent trends unknown
+3. **Match rate:** 61% genre match rate may introduce selection bias toward well-documented films
+4. **Multi-genre complexity:** 52% of films belong to multiple genres; weighted attribution may not fully capture dynamics
+5. **Causation:** Correlations don't establish causal mechanisms (e.g., curation capacity vs. talent dilution vs. audience saturation)
 
-Future Research
-1. Causal Mechanisms
+## Future Research
 
-Investigate what drives genre-specific quality degradation during scaling
-Test hypotheses: curation capacity limits, talent pool dilution, audience saturation
-Conduct natural experiments comparing platforms with different scaling approaches
+**1. Causal Mechanisms**
+- Investigate what drives genre-specific quality degradation during scaling
+- Test hypotheses: curation capacity limits, talent pool dilution, audience saturation
+- Conduct natural experiments comparing platforms with different scaling approaches
 
-2. Movie-Level Analysis
+**2. Movie-Level Analysis**
+- Analyze individual film trajectories within genres to identify outliers
+- Build predictive models: Which films beat/underperform genre trends?
 
-Analyze individual film trajectories within genres to identify outliers
-Build predictive models: Which films beat/underperform genre trends?
+**3. Content Characteristics**
+- Test whether runtime, budget, or cast composition mediate volume-quality relationships
+- Examine whether prestige directors/actors buffer against scaling degradation
 
-3. Content Characteristics
+**4. Comedy Deep Dive**
+- Conduct qualitative research on Comedy's anomalous low engagement (0.63 vs. 0.79)
+- Test content variations to identify audience expectation gaps
 
-Test whether runtime, budget, or cast composition mediate volume-quality relationships
-Examine whether prestige directors/actors buffer against scaling degradation
+**5. Platform Generalization**
+- Replicate analysis across Netflix, Amazon Prime, Disney+
+- Test whether findings generalize across rating systems (IMDb, Rotten Tomatoes)
 
-4. Comedy Deep Dive
-
-Conduct qualitative research on Comedy's anomalous low engagement (0.63 vs. 0.79)
-Test content variations to identify audience expectation gaps
-
-5. Platform Generalization
-
-Replicate analysis across Netflix, Amazon Prime, Disney+
-Test whether findings generalize across rating systems (IMDb, Rotten Tomatoes)
-
-6. Audience Segmentation
-
-Examine whether engagement patterns differ by user demographics or viewing history
-Identify which user segments drive genre-specific community culture
+**6. Audience Segmentation**
+- Examine whether engagement patterns differ by user demographics or viewing history
+- Identify which user segments drive genre-specific community culture
 
 ## Technologies Used
+- **Python** — Data analysis and statistical modeling
+    - **Pandas/NumPy** — Data manipulation and aggregation
+    - **SciPy/Statsmodels** — Statistical testing (correlation, regression, t-tests)
+    - **Matplotlib/Seaborn** — Visualization and trend analysis
 
-Python — Data analysis and statistical modeling
-
-Pandas / NumPy — Data manipulation and aggregation
-SciPy / Statsmodels — Statistical testing (correlation, regression, t-tests)
-Matplotlib / Seaborn — Visualization and trend analysis
-
-SQL — Data extraction and transformation
-Jupyter Notebook — End-to-end reproducible analysis
-Fuzzy Matching — Genre enrichment (MUBI + TMDB integration)
+- **SQL** — Data extraction and transformation
+- **Jupyter Notebook** — End-to-end reproducible analysis
+- **Fuzzy Matching** — Genre enrichment (MUBI + TMDB integration)
