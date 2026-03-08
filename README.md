@@ -1,5 +1,4 @@
-# Genre Scaling Risk in Streaming Content
-## A Statistical Analysis of Production Volume vs Quality in MUBI Movies
+# Genre Scaling Risk in Streaming Content: A Statistical Analysis of Production Volume vs Quality in MUBI Movies
 
 [View Full Analysis Notebook](https://github.com/ChisomChioke/MUBI-Movie-Analysis/blob/main/Movie_Data_Analysis.ipynb) | [View Project Summary](link-if-you-have-summary.pdf)
 
