@@ -1,10 +1,5 @@
-# Movie Quality & Engagement Analysis: Understanding Content Strategy Through Data
-
-**Analyzing 226,000+ MUBI movies and 15.5 million user ratings to uncover the paradox between cross-sectional correlation and temporal trends**
-
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-1.3+-green.svg)](https://pandas.pydata.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+# Genre Scaling Risk in Streaming Content
+## A Statistical Analysis of Production Volume vs Quality in MUBI Movies
 
 [View Full Analysis Notebook](https://github.com/ChisomChioke/MUBI-Movie-Analysis/blob/main/Movie_Data_Analysis.ipynb) | [View Project Summary](link-if-you-have-summary.pdf)
 
