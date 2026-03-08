@@ -107,7 +107,7 @@ _Figure 3: Documentary quality dropped 8.4% during 11x expansion (1990-2019): 3.
 
 #### Within-Genre Volume-Quality Correlations (1990-2019):
 
-| Genre | Volume Growth | Key Results |
+| Genre | Volume \nGrowth | Key Results |
 |--------|---------|-------------|
 | **Correlation Analysis** | Test volume-quality relationship | Cross-sectional: r = -0.07, p = 0.47 (no relationship) |
 | **Regression Analysis** | Model quality vs volume | R² = 0.005 (volume explains <1% of quality variance) |
