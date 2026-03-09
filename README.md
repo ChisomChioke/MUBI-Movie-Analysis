@@ -97,21 +97,13 @@ _Figure 3: Documentary quality dropped 8.4% during 11x expansion (1990-2019): 3.
 
 #### Within-Genre Volume-Quality Correlations (1990-2019):
 
-| Genre | Volume Growth | Quality Change | Correlation | p-value | Pattern |
+| Genre | Volume Growth | Quality Change | Correlation | p-value | Strategy |
 |--------|---------|-------------|---------|----------|----------|
 | **Documentary** | 11x (429→4,836) | -8.4% (3.57→3.27) | r=-0.937 | **0.006** | ✗ Constrain + curate |
 | **Romance** | 3x (559→1,572) | -7.2% (2.90→2.69) | r=-0.934 | **0.006** | ✗ Constrain + curate |
 | **Comedy** | 3x (1,024→3,646) | Stable | r=-0.471 | 0.345 | ✓ Scale confidently |
 | **Thriller** | 3x (1,087→3,228) | Stable | r=-0.438 | 0.385 | ✓ Scale confidently |
-| **Crime** | Expansion | Linear decline | p=0.002 | **0.002** | Prestige projects only |
-
-| Genre | Volume Growth | Quality Change | Correlation / Trend | Strategy |
-|------|------|------|------|------|
-| **Documentary** | 11x (429→4,836) | -8.4% (3.57→3.27) | r = -0.937 (p = 0.006) | Constrain + curate |
-| **Romance** | 3x (559→1,572) | -7.2% (2.90→2.69) | r = -0.934 (p = 0.006) | Constrain + curate |
-| **Comedy** | 3x (1,024→3,646) | Stable | r = -0.471 (p = 0.345) | Scale confidently |
-| **Thriller** | 3x (1,087→3,228) | Stable | r = -0.438 (p = 0.385) | Scale confidently |
-| **Crime** | Expansion | Linear decline | r ≈ -0.964 (p = 0.002) | Prestige projects only |
+| **Crime** | Expansion | Linear decline | r ≈ -0.964 | **0.002** | Prestige projects only |
 
 ![Volume Quality Relationships](images/volume_quality_relationships.png)
 _Figure 4: Genre-specific scaling patterns reveal differentiated risks: Documentary and Romance show statistically significant quality degradation (r ≈ -0.93, p = 0.006), while Comedy and Thriller maintain quality despite similar growth rates._
