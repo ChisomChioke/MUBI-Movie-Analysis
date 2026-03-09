@@ -62,7 +62,7 @@ _Figure 1: 63% of movies have user ratings, while 37% remain unrated—indicatin
 ## Methodology
 This project combines three layers of analysis:
 
-**1. Cross-sectional benchmarking** to compare genres at aggregate whether higher-volume genres have lower ratings overall
+**1. Cross-sectional benchmarking** to compare genres at the aggregate level to test whether higher-volume genres tend to have lower ratings
 
 **2. Temporal trend analysis** to examine whether quality declines within genres as they scale over time
 
