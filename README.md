@@ -74,7 +74,7 @@ This approach reveals patterns invisible in static snapshots: genres may maintai
 
 ## Key Findings
 
-**Finding #1: Cross-Sectional Analysis Misleads Strategy**
+### Finding #1: Cross-Sectional Analysis Misleads Strategy
 
 ![Cross-Sectional Analysis](images/average_rating_vs_popularity_by_genre_cross_sectional.png)
 _Figure 2: Cross-sectional view suggests Documentary (3.37 rating, 14,509 films) is a safe expansion target. However, this aggregate metric masks an 8.4% quality decline during 11x growth (1990-2019)._
@@ -90,7 +90,7 @@ _Figure 2: Cross-sectional view suggests Documentary (3.37 rating, 14,509 films)
 
 ---
 
-**Finding #2: Temporal Scaling Risks Are Genre-Specific**
+### Finding #2: Temporal Scaling Risks Are Genre-Specific
 
 ![Documentary Decline](images/documentary_decline.png)
 _Figure 3: Documentary quality dropped 8.4% during 11x expansion (1990-2019): 3.57 (429 movies) → 3.27 (4,836 movies). Strong negative correlation (r = -0.937, p = 0.006) confirms quality degradation accompanies scaling._
@@ -112,7 +112,7 @@ _Figure 4: Genre-specific scaling patterns reveal differentiated risks: Document
 
 ---
 
-**Finding #3: Engagement is Genre-Specific, Not Metric-Driven**
+### Finding #3: Engagement is Genre-Specific, Not Metric-Driven
 
 ![Engagement Analysis](images/top_12_genres_critique_volume_vs_average_engagement_quality.png)
 _Figure 5: Drama achieves both high volume (160,723 critiques) and high engagement (0.79 avg likes). Comedy shows high volume (51,426) but lowest engagement (0.63), while Horror maintains high engagement with low volume—demonstrating engagement is genre-specific, not scale-driven._
@@ -134,7 +134,7 @@ _Figure 5: Drama achieves both high volume (160,723 critiques) and high engageme
 
 ---
 
-**Finding #4: Genre Volatility Reveals Strategic Risks**
+### Finding #4: Genre Volatility Reveals Strategic Risks
 
 ![Genre Volatility Rankings](images/genre_volatility_rankings.png)
 _Figure 6: Volatility analysis reveals Crime, Western, and Fantasy as most unstable genres (SD > 40). Crime shows linear decline (p = 0.002), Western exhibits erratic fluctuations, and Fantasy demonstrates boom-bust cycles—each requiring distinct strategic approaches._
