@@ -254,30 +254,9 @@ The framework successfully shifts content strategy from **volume-driven** to **g
 5. **Causation:** Correlations don't establish causal mechanisms (e.g., curation capacity vs. talent dilution vs. audience saturation)
 
 ### Future Research
-**1. Causal Mechanisms**
-- Investigate what drives genre-specific quality degradation during scaling
-- Test hypotheses: curation capacity limits, talent pool dilution, audience saturation
-- Conduct natural experiments comparing platforms with different scaling approaches
-
-**2. Movie-Level Analysis**
-- Analyze individual film trajectories within genres to identify outliers
-- Build predictive models: Which films beat/underperform genre trends?
-
-**3. Content Characteristics**
-- Test whether runtime, budget, or cast composition mediate volume-quality relationships
-- Examine whether prestige directors/actors buffer against scaling degradation
-
-**4. Comedy Deep Dive**
-- Conduct qualitative research on Comedy's anomalous low engagement (0.63 vs. 0.79)
-- Test content variations to identify audience expectation gaps
-
-**5. Platform Generalization**
-- Replicate analysis across Netflix, Amazon Prime, Disney+
-- Test whether findings generalize across rating systems (IMDb, Rotten Tomatoes)
-
-**6. Audience Segmentation**
-- Examine whether engagement patterns differ by user demographics or viewing history
-- Identify which user segments drive genre-specific community culture
+1. **Causal mechanisms** - Investigate what drives genre-specific degradation (curation capacity, talent dilution, audience saturation)
+2. **Platform generalization** - Test whether findings replicate across Netflix, Amazon Prime, Disney+
+3. **Comedy deep dive** - Qualitative research on engagement gap (0.63 vs. 0.79)
 
 ## Technologies Used
 - **Python** — Data analysis and statistical modeling
