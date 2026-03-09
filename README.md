@@ -134,8 +134,8 @@ _Figure 5: Drama achieves both high volume (160,723 critiques) and high engageme
 
 **Finding #4: Genre Volatility Reveals Strategic Risks**
 
-![Temporal Analysis Summary](images/temporal_analysis_summary.png)
-_Figure 6: Four-panel analysis reveals: Crime shows linear decline (top-left), volatility hierarchy confirms Crime/Western/Fantasy as most unstable (top-right), Fantasy exhibits boom-bust cycles vs. Romance's moderate fluctuations (bottom-left), and volume-quality correlations differ by genre (bottom-right)._
+![Genre Volatility Rankings](images/genre_volatility_rankings.png)
+_Figure 6: Volatility analysis reveals Crime, Western, and Fantasy as most unstable genres (SD > 40). Crime shows linear decline (p = 0.002), Western exhibits erratic fluctuations, and Fantasy demonstrates boom-bust cycles—each requiring distinct strategic approaches._
 
 #### Genre Volatility Rankings (Popularity Standard Deviation):
 
@@ -151,87 +151,19 @@ _Figure 6: Four-panel analysis reveals: Crime shows linear decline (top-left), v
 ---
 
 ## Strategic Recommendations
-Based on statistical findings, implement **differentiated genre strategies:**
 
-#### 1. Constrain Expansion with Strict Curation
+**1. Differentiated Scaling by Genre**
+- **Constrain:** Documentary, Romance (r ≈ -0.93, p = 0.006) - Freeze volume, implement quality gates
+- **Scale confidently:** Comedy, Thriller (maintained quality despite 3x growth)
+- **Prestige-only:** Crime (linear decline, p = 0.002)
 
-**Genres:** Documentary, Romance
+**2. Investigate Comedy Engagement Gap**
+Comedy shows high volume (51,426 critiques) but lowest engagement (0.63 vs. 0.79 benchmark). Conduct qualitative research on content-audience misalignment.
 
-**Rationale:** Both show statistically significant quality degradation (r ≈ -0.93, p = 0.006) during scaling
+**3. Implement Temporal Quality Monitoring**
+Track within-genre quality trends quarterly. Alert when moving average drops >0.1 points over 2 periods to prevent Documentary-style hidden erosion.
 
-**Actions:**
-- Slow expansion in Documentary and Romance until quality trends stabilize
-- Introduce stricter greenlighting and curation thresholds for genres showing measurable scaling risk
-- Shift resources to prestige curation over volume growth
-
-**Expected Impact:** Prevent further quality erosion; stabilize brand reputation
-
----
-
-#### 2. Scale Confidently
-
-**Genres:** Comedy, Thriller
-**Rationale:** Both maintained quality despite 3x volume growth (p > 0.3)
-
-**Actions:**
-- Continue current expansion trajectory
-- Monitor engagement quality (Comedy shows warning signals at 0.63 avg likes)
-- Allocate growth capital to proven scalable genres
-
-**Expected Impact:** Maximize catalog growth without quality risk
-
----
-
-#### 3. Investigate Comedy Engagement Gap
-
-**Problem:** Comedy shows high volume (51,426 critiques) but lowest engagement (0.63 avg likes vs. 0.79 for Drama/Horror)
-
-**Actions:**
-- Conduct qualitative research on audience expectations
-- Test content tone variations (dark comedy vs. slapstick vs. satire)
-- Analyze critique sentiment to identify misalignment sources
-
-**Expected Impact:** Close 20% engagement gap with Drama benchmark
-
----
-
-#### 4. Leverage Niche Communities
-
-**Genres:** Horror, Mystery (high engagement, low volume)
-
-**Actions:**
-- Invest strategically in 10-15 high-quality titles per year
-- Build community features (genre-specific forums, exclusive previews)
-- Use engagement metrics (0.78-0.79 avg likes) to guide curation
-
-**Expected Impact:** Maximize engagement efficiency; strengthen loyal communities
-
----
-
-#### 5. Manage Declining Genres Strategically
-
-**Crime (linear decline, p = 0.002):**
-- Shift to prestige projects (2-3 high-budget films/year)
-- Avoid volume-based strategies
-
-**Western (erratic volatility):**
-- Treat as cyclical, event-driven content
-- Monitor for revival signals before investment
-
-**Expected Impact:** Minimize capital allocation to structurally declining genres
-
----
-
-#### 6. Implement Temporal Quality Monitoring
-
-**System Requirements:**
-- Track within-genre quality trends quarterly (not just aggregate metrics)
-- Alert when moving average drops >0.1 points over 2 periods
-- Trigger curation reviews before degradation becomes entrenched
-
-**Expected Impact:** Early detection prevents Documentary-style hidden erosion
-
----
+**Impact:** Enable platforms to maximize catalog growth while maintaining brand integrity through genre-specific strategies.
 
 ## Key Takeaways
 This project demonstrates:
