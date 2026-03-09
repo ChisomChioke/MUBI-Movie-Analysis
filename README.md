@@ -97,7 +97,7 @@ _Figure 3: Documentary quality dropped 8.4% during 11x expansion (1990-2019): 3.
 
 #### Within-Genre Volume-Quality Correlations (1990-2019):
 
-| Genre | Volume Growth | Quality Change | Correlation | p-value | Strategy |
+| Genre | Volume Growth | Quality Change | Correlation (r) | p-value | Strategy |
 |--------|---------|-------------|---------|----------|----------|
 | **Documentary** | 11x (429→4,836) | -8.4% (3.57→3.27) | 0.937 | **0.006** | ✗ Constrain + curate |
 | **Romance** | 3x (559→1,572) | -7.2% (2.90→2.69) | 0.934 | **0.006** | ✗ Constrain + curate |
