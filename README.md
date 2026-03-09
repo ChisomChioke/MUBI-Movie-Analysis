@@ -1,5 +1,7 @@
 # Genre Scaling Risk in Streaming Content: A Statistical Analysis of Production Volume vs Quality in MUBI Movies
 
+#### A MUBI case study showing that aggregate genre metrics can hide quality decline during expansion, making genre-specific scaling strategy more effective than one-size-fits-all volume growth.
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
@@ -56,29 +58,17 @@ Traditional cross-sectional analysis would recommend expanding Documentary based
 _Figure 1: 63% of movies have user ratings, while 37% remain unrated—indicating potential discoverability gaps and opportunities for targeted promotion._
 
 ## Methodology
-#### Dual-Analysis Framework:
+This project combines three layers of analysis:
 
-#### Phase 1: Cross-Sectional Benchmarking
-- Correlation analysis (Pearson/Spearman) testing volume-quality relationships
-- OLS regression: Genre rating ~ Production volume
-- T-tests comparing high-volume vs. low-volume genres
+**1. Cross-sectional benchmarking** to compare genres at aggregate whether higher-volume genres have lower ratings overall
 
-#### Phase 2: Temporal Trend Detection
-- Within-genre time-series analysis (1990-2019)
-- OLS regression: Quality/Popularity ~ Time period
-- Volatility analysis: Genre stability rankings
-- Correlation: Production growth vs. quality change
+**2. Temporal trend analysis** to examine whether quality declines within genres as they scale over time
 
-#### Phase 3: Engagement Analysis
-- Critique volume vs. engagement quality correlation
-- High vs. low volume group comparisons
-- Rating-engagement relationship testing
+**3. Engagement analysis** to test whether critique quality is driven by genre volume or by genre-specific audience behavior
 
-#### Statistical Methods:
-- Pearson & Spearman correlation (relationship strength)
-- OLS time-series regression (trend significance)
-- Welch's t-tests (group comparisons)
-- Volatility metrics (genre stability)
+This approach reveals patterns invisible in static snapshots: genres may maintain stable cross-sectional rankings while simultaneously experiencing quality decline during expansion.
+
+**Methods used:** Pearson/Spearman correlation, OLS regression, Welch’s t-tests, and volatility analysis across six five-year periods (1990–2019).
 
 ## Key Findings
 
@@ -100,7 +90,7 @@ _Figure 2: Cross-sectional view suggests Documentary (3.37 rating, 14,509 films)
 
 **Finding #2: Temporal Scaling Risks Are Genre-Specific**
 
-![Documentary Trend](images/documentary_decline.png)
+![Documentary Decline](images/documentary_decline.png)
 _Figure 3: Documentary quality dropped 8.4% during 11x expansion (1990-2019): 3.57 (429 movies) → 3.27 (4,836 movies). Strong negative correlation (r = -0.937, p = 0.006) confirms quality degradation accompanies scaling._
 
 #### Within-Genre Volume-Quality Correlations (1990-2019):
@@ -170,8 +160,8 @@ Based on statistical findings, implement **differentiated genre strategies:**
 **Rationale:** Both show statistically significant quality degradation (r ≈ -0.93, p = 0.006) during scaling
 
 **Actions:**
-- Freeze Documentary volume at 2010-2014 levels
-- Implement quality gates: Only greenlight projects scoring 3.5+ in test screenings
+- Slow expansion in Documentary and Romance until quality trends stabilize
+- Introduce stricter greenlighting and curation thresholds for genres showing measurable scaling risk
 - Shift resources to prestige curation over volume growth
 
 **Expected Impact:** Prevent further quality erosion; stabilize brand reputation
@@ -252,7 +242,7 @@ This project demonstrates:
 4. **Engagement reflects community, not metrics** — Drama's high engagement (0.79) despite high volume, and Comedy's low engagement (0.63) despite similar volume, prove engagement is genre-specific
 5. **Statistical rigor reveals counterintuitive insights** — Visual patterns suggesting Western decline proved statistically insignificant (p = 0.353), while Crime's decline reached high significance (p = 0.002)
 
-The framework successfully shifts content strategy from **volume-driven** to **genre-specific, quality-weighted** approaches—enabling platforms to maximize catalog growth while maintaining brand integrity.
+The framework successfully shifts content strategy from **volume-driven** to **genre-specific, quality-weighted** approaches—helping platforms make more targeted expansion decisions while reducing the risk of hidden quality erosion.
 
 ## Limitations & Future Work
 
