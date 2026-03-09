@@ -48,6 +48,8 @@ Traditional cross-sectional analysis would recommend expanding Documentary based
 - **Volume:** Movie count per genre per time period
 - **Engagement:** Average likes per user critique
 
+**Data quality note:** 37% of movies remain unrated, indicating potential selection bias toward more discoverable titles.
+
 #### Data Preparation:
 - Fuzzy matching merged MUBI ratings with TMDB genres (61% match rate)
 - Multi-genre attribution: 52% of films assigned to multiple genres (weighted analysis)
